@@ -1,0 +1,442 @@
+/* For mobile */
+@media screen and (max-width: 576px) {
+  /* navbar section starts here */
+  .nav-container {
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    padding-top: 30px;
+  }
+  .nav-logo-container {
+    width: 100%;
+    margin: 0 auto;
+    justify-content: center;
+  }
+  .nav-items-container {
+    flex-direction: column;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .follow-us {
+    margin-bottom: 15px;
+  }
+  /* navbar section ends here */
+  /* banner section starts here */
+
+  .banner-container-section {
+    background-image: none;
+    margin-top: 20px;
+  }
+  .banner-text-container {
+    background-image: url(../resources/images/Group\ 14.png);
+    background-position: center left;
+    background-repeat: no-repeat;
+    background-size: 105% 100%;
+    display: grid;
+  }
+  .banner-text {
+    justify-self: center;
+  }
+  .banner-container {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  .banner-text-container {
+    order: 2;
+  }
+  .banner-image-container {
+    order: 1;
+  }
+  .banner-heading-1 {
+    font-size: 1rem;
+  }
+  .banner-heading-2 {
+    font-size: 2rem;
+  }
+  .banner-list-text {
+    font-size: 0.8rem;
+  }
+  .button-1,
+  .button-2 {
+    padding: 10px 15px;
+    font-size: 0.7rem;
+  }
+  /* banner section ends here */
+
+  /* gamer section starts here */
+
+  .gamer-container {
+    flex-direction: column;
+  }
+  .gamer-image {
+    width: 100%;
+  }
+  .gamer-info {
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .gamer-info-headings {
+    font-size: 1.8rem;
+  }
+  .gamer-info-para {
+    line-height: 1.5rem;
+    font-size: 0.8rem;
+  }
+  .our-purpose {
+    font-size: 0.9rem;
+    padding-bottom: 10px;
+  }
+  .quote {
+    font-size: 1rem;
+  }
+
+  /* gamer section ends here */
+
+  /* funny video section starts here */
+
+  .funny-video-text {
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 20px;
+  }
+  .funny-video-text h3,
+  .funny-video-text .funny-video-name-2 {
+    font-size: 1.5rem;
+  }
+  .funny-video-text p {
+    font-size: 0.8rem;
+    margin-bottom: 20px;
+  }
+  .video-container {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 40px;
+  }
+  .video-container-boxes {
+    text-align: center;
+  }
+  .video-container-box-para {
+    font-size: 0.8rem;
+  }
+
+  /* funny video section ends here */
+
+  /* play online game instantly section1 starts */
+  .play-instantly-container {
+    flex-direction: column;
+    gap: 70px;
+    margin-bottom: 100px;
+  }
+  .play-instantly-text {
+    width: 100%;
+    text-align: center;
+  }
+  .play-instantly-para{
+    font-size: 1rem;
+  }
+  .funny-video-name {
+    font-size: 1.8rem;
+  }
+
+  .play-instantly-image {
+    width: 80%;
+    left: 20px;
+  }
+
+  .play-instantly-child-img {
+    left: -50px;
+    bottom: -40px;
+  }
+
+  /* play online game instantly section1 ends */
+
+  /* play online game instantly section2 starts */
+
+  .play-instantly-image-2 {
+    width: 80%;
+    right: 20px;
+  }
+
+  .play-instantly-child-img-2 {
+    right: -50px;
+    bottom: -40px;
+  }
+
+  /* play online game instantly section2 ends */
+
+   /* career section starts here */
+
+   .career-container{
+    grid-template-columns:1fr;
+    gap: 20px;
+  }
+  
+  .career-heading{
+  font-size: 2rem;
+  font-weight: 700;
+  }
+.career-para{
+  font-size: 1rem;
+}
+.job-name,.job-location{
+  font-size: 0.8rem;
+}
+  .button-3{
+  font-size: 1rem;
+  padding: 10px 15px;
+  }
+
+  /* career section ends here */
+
+  /* footer section styling starts here */
+  .footer-links,
+  .footer-icons {
+    display: grid;
+    grid-template-columns: repeat(3, 70px);
+    place-items: center;
+    margin-bottom: 30px;
+  }
+  .footer-links a,
+  .footer-terms a {
+    font-size: 0.7rem;
+  }
+  .footer-terms {
+    display: grid;
+    grid-template-columns: repeat(2, 120px);
+    place-items: center;
+    margin-bottom: 20px;
+  }
+  .footer-copy-write {
+    font-size: 0.6rem;
+  }
+  .footer-name {
+    font-size: 2rem;
+  }
+  .footer-logo-img {
+    width: 70px;
+    height: 30%;
+  }
+}
+/* footer section styling ends here */
+
+/* For tablet */
+@media screen and (min-width: 576px) and (max-width: 960px) {
+  /* navbar section starts here */
+  .nav-container {
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    padding-top: 30px;
+  }
+  .nav-logo-container {
+    width: 100%;
+    margin: 0 auto;
+    justify-content: center;
+  }
+
+  .nav-items-container {
+    flex-direction: column;
+    width: 100%;
+    margin: 0 auto;
+  }
+  .follow-us {
+    margin-bottom: 15px;
+  }
+  /* navbar section ends here */
+  /* banner section starts here */
+
+  .banner-container-section {
+    background-image: none;
+  }
+  .banner-text-container {
+    width: 100%;
+    background-image: url(../resources/images/Group\ 14.png);
+    background-position: center left;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: grid;
+  }
+  .banner-text {
+    justify-self: center;
+  }
+  .banner-container {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  .banner-text-container {
+    order: 1;
+  }
+  .banner-image-container {
+    order: 2;
+  }
+  .banner-heading-1 {
+    font-size: 1.7rem;
+  }
+  .banner-heading-2 {
+    font-size: 3.5rem;
+  }
+  .banner-list-text {
+    font-size: 0.9rem;
+  }
+  .button-1,
+  .button-2 {
+    padding: 12px 22px;
+  }
+  /* banner section ends here */
+
+  /* gamer section starts here */
+
+  .gamer-container {
+    flex-direction: column-reverse;
+  }
+  .gamer-image {
+    width: 100%;
+  }
+  .gamer-info {
+    width: 85%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 10px;
+  }
+  .gamer-info-headings {
+    font-size: 2.4rem;
+  }
+  .gamer-info-para {
+    line-height: 1.8rem;
+    font-size: 1rem;
+  }
+  .our-purpose {
+    font-size: 1rem;
+    padding-bottom: 10px;
+  }
+  .quote {
+    font-size: 1.3rem;
+  }
+
+  /* gamer section ends here */
+
+  /* funny video section starts here */
+
+  .funny-video-text {
+    /* width: 90%; */
+    margin: 0 auto;
+    padding-top: 30px;
+  }
+  .funny-video-text h3,
+  .funny-video-text .funny-video-name-2 {
+    font-size: 2.3rem;
+  }
+  .funny-video-text p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+  }
+  .video-container {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+  }
+  .video-container-boxes {
+    text-align: center;
+  }
+  .video-container-box-para {
+    font-size: 1rem;
+  }
+
+  /* funny video section ends here */
+  /* play online game instantly section1 starts */
+  .play-instantly-container {
+    flex-direction: column;
+    gap: 70px;
+    margin-bottom: 120px;
+  }
+  .play-instantly-text {
+    width: 100%;
+    text-align: center;
+  }
+  .funny-video-name {
+    font-size: 2rem;
+  }
+
+  .play-instantly-para {
+    font-size: 1.150rem;
+  }
+  .play-instantly-image {
+    width: 80%;
+    left: 40px;
+  }
+
+  .play-instantly-child-img {
+    left: -90px;
+    bottom: -60px;
+  }
+
+  /* play online game instantly section1 ends */
+  /* play online game instantly section2 starts */
+
+  .play-instantly-image-2 {
+    width: 80%;
+    right: 40px;
+  }
+
+  .play-instantly-child-img-2 {
+    right: -90px;
+    bottom: -60px;
+  }
+
+  /* play online game instantly section2 ends */
+
+  /* career section starts here */
+
+.career-container{
+  grid-template-columns:1fr;
+  gap: 20px;
+}
+.career-text-container{
+  order: 2;
+}
+.career-image-container{
+  order: 1;
+}
+.career-heading{
+font-size: 3rem;
+font-weight: 700;
+}
+
+.button-3{
+font-size: 1rem;
+padding: 12px 22px;
+}
+
+  /* career section ends here */
+
+  /* footer section styling starts here */
+  .footer-links,
+  .footer-icons {
+    display: grid;
+    grid-template-columns: repeat(3, 80px);
+    place-items: center;
+    margin-bottom: 35px;
+  }
+  .footer-links a,
+  .footer-terms a {
+    font-size: 0.7rem;
+  }
+  .footer-terms {
+    display: grid;
+    grid-template-columns: repeat(2, 120px);
+    place-items: center;
+    margin-bottom: 20px;
+  }
+  .footer-copy-write {
+    font-size: 0.85rem;
+  }
+  .footer-name {
+    font-size: 2.5rem;
+  }
+  .footer-logo-img {
+    width: 75px;
+    height: 35%;
+  }
+
+  /* footer section styling ends here */
+}
